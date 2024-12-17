@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : GATEFAIT 
+- PRÉNOM : Mathilde
+- GROUPE : B1 
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/Jr6poRKjOE9wNo7P6sjioE/GATEFAIT_Mathilde_B1_Maquette-Projet-Individuel?node-id=46-182&p=f&t=3x4ay4K9pXgY2bl3-0 
