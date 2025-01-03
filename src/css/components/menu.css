@@ -1,0 +1,45 @@
+.headermenu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, #1C2735, #3E5B6E, #51798E);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.headermenu[aria-hidden="false"] {
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.menu {
+    font-size: 30px;
+    list-style: none;
+    color: white;
+    line-height: 3;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+    margin-left: -150px;
+}

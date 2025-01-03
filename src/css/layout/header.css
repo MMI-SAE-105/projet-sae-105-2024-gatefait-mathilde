@@ -1,0 +1,27 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;          
+}
+
+.header__logo {
+    font-family: 'creepsterregular';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #1C2735, #3E5B6E, #51798E);
+}
+
+.header__logo--langue {
+    justify-content: right;
+}
+
+.header__title {
+    font-family: --font-tertiary;
+    color: white;
+}

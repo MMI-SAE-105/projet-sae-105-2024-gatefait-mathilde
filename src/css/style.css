@@ -17,7 +17,7 @@
 
 /* Utils */
 @import "utils/variables.css";
-@import "utils/font";
+@import "utils/fonts.css";
 
 /* Base */
 @import "base/main.css";
@@ -28,3 +28,4 @@
 @import "layout/footer.css";
 
 /*Components*/
+@import "menu.css";
