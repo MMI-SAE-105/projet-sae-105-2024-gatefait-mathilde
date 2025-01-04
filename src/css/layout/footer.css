@@ -1,20 +1,48 @@
 .footer {
     background: linear-gradient(to bottom,#6090A8,#284356,#1C2735);
     color: white;
+}
+
+.footer__partie--title {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;  
+    font-family:'allertastencil';
+    display: inline-block;
+}
+
+.footer__partie--list {
+    list-style-type: none;
+    margin-left: -15px;
+    line-height: 30px;
+    margin-top: -5px;
+    font-family:'amikoregular';
+    
     
 }
 
-.footer__partie {
-    margin-left: 20px;
-    margin-right: 20px;
+.footer__partie--2 {
+    display: inline-block;
+    float: right;
 }
 
-.footer__contact {
+.footer__contact--info {
     margin-left: 20px;
     margin-right: 20px;
+    font-family:'amikoregular';
 }
 
-.footer__legal {
-    margin-left: 20px;
-    margin-right: 20px;
+.footer__logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.footer__mentionslegales {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
 }   

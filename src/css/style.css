@@ -25,7 +25,9 @@
 
 /* Layout */
 @import "layout/header.css";
-@import "layout/footer.css";
+@import "/src/css/layout/footer.css";
 
 /*Components*/
 @import "menu.css";
+@import "/src/css/components/paragraphe.css";
+@import "/src/css/components/card.css";    
