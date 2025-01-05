@@ -1,0 +1,19 @@
+.button{
+    border-radius: 50px;
+    background-color: #6090A8;
+    padding: 1.5rem 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family:'allertastencil';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center; 
+    margin-left: 130px;
+    
+}
+
+
