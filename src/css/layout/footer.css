@@ -17,8 +17,6 @@
     line-height: 30px;
     margin-top: -5px;
     font-family:'amikoregular';
-    
-    
 }
 
 .footer__partie--2 {
@@ -41,8 +39,15 @@
 
 .footer__mentionslegales {
     font-size: 13px;
-    text-decoration: none;
+    
     color: white;
     text-align: center;
     display: flex;
 }   
+
+.footer__item{
+    text-decoration: none;
+    color: white;
+    font-family: 'amikoregular'
+    
+}
