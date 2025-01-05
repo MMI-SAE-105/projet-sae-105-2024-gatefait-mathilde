@@ -17,3 +17,15 @@
 }
 
 
+.button__contact {
+    border-radius: 50px;
+    background-color: #1C2735;
+    font-family:'allertastencil';
+    font-size: 20px;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+

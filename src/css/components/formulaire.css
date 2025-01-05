@@ -1,0 +1,25 @@
+
+.formulaire {
+    font-family:'amikoregular';
+
+}
+
+.formulaire__title {
+    color: #6090A8;
+    font-size: 15px;
+    margin-left: 67px;
+    margin-right: 20px;
+    
+}
+
+.formulaire__paragraphe{
+    color: #D9D9D9  ;
+    border-radius: 50px;
+    background-color: #6090A8;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
