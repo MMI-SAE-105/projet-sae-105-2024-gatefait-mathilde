@@ -9,5 +9,21 @@
 
 }
 
+.paragraphe__pageaccueil3 {
+    margin-bottom: 40px;
+}   
 
+.paragraphe__title__glossaire{
+    font-size: 15px;
+    font-style: bold;
+    color: #1C2735;
+    font-family: 'amikoregular';
+    margin-top: 50px;
+}
 
+.paragraphe__pageglossaire {
+    font-family: 'amikoregular';
+    font-size: 15px;
+    color: #1C2735;
+    margin-bottom: 40px;
+}

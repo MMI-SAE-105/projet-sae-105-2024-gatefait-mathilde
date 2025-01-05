@@ -30,4 +30,6 @@
 /*Components*/
 @import "menu.css";
 @import "/src/css/components/paragraphe.css";
-@import "/src/css/components/card.css";    
+@import "/src/css/components/card.css";   
+@import "/components/intro.css"
+
