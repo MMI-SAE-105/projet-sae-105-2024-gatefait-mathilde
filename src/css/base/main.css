@@ -8,20 +8,11 @@
     font-size: 32px;
 }
 
-.image{
-    display: flex;
-    justify-content: space-between;
-    width: 45%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    gap: 5px;
-}
 
 .paragraphe__title {
     color: #1C2735;
     font-size: 15px;
     text-transform: uppercase;
 }
+
 

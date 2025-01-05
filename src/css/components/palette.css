@@ -1,0 +1,24 @@
+.palette__1 {
+    width: 113px;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.palette__2 {
+
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.palette__legende {
+    color: #6090A8;
+    font-family: 'amikoregular';
+    font-size: 13px;
+
+}

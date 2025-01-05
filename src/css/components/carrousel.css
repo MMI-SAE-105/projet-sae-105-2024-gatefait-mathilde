@@ -1,0 +1,19 @@
+.carrousel__content {
+    display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+}
+
+
+
+.carousel__item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    flex: 1 0 30vw;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
