@@ -18,3 +18,10 @@
     margin-bottom: 30px;
     gap: 5px;
 }
+
+.paragraphe__title {
+    color: #1C2735;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,32 @@
+.autresprojets__img {
+    margin-left: 20px;
+}
+
+.autresprojets__texte {
+    font-family:'allertastencil';
+    font-size: 20px;
+    color:#1C2735;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-left: 190px;
+    
+}
+
+.autresprojets__button {
+    border-radius: 50px;
+    background-color:#6090A8;
+    padding: 1rem 1rem;
+    display: inline-block;
+    margin-left: 190px;
+    margin-bottom: 80px;
+
+}
+
+.autresprojets__button a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ 

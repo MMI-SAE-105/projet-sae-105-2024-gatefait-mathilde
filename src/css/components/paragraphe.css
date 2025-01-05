@@ -31,3 +31,15 @@
 .paragraphe__pageaccueil1{
     font-weight: bold;
 }
+
+.paragraphe__pageapropos {
+    margin-top: 30px;
+}
+
+.paragraphe__seul {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #1C2735;
+    font-size: 15px;
+    font-family:'amikoregular';
+}
