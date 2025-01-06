@@ -1,15 +1,10 @@
 .legende {
     color: #6090A8;
     font-family:'amikoregular';
-    font-size: 13px;
-    text-decoration:underline;
-    text-align: center;
-
+    font-size: 13px;    
 }
 
 .legende__img--DND {
     width: 171px;
-    
-    
 }
 

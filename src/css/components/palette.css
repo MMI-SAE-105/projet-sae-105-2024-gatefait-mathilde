@@ -1,11 +1,15 @@
 .palette__1 {
-    width: 113px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;     
 }
+
+.palette__1-img{
+    width: 113px;
+}
+
 
 .palette__2 {
 
