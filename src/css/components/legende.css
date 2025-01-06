@@ -5,6 +5,10 @@
 }
 
 .legende__img--DND {
+    display: inline-block;
+    justify-content: space-between;
     width: 171px;
+    
+
 }
 

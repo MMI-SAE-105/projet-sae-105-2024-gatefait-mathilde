@@ -3,7 +3,7 @@
 }
 
 .autresprojets__texte {
-    font-family:'allertastencil';
+    font-family:var(--font-secondary);
     font-size: 20px;
     color:#1C2735;
     margin-top: -60px;
@@ -24,6 +24,7 @@
 
 .autresprojets__button a {
     color: white;
+    font-family: var(--font-secondary);
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
