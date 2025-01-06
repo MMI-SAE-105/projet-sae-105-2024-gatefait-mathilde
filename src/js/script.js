@@ -1,17 +1,18 @@
 
+/*menu*/ 
 
-const toggle = document.querySelector(".menu-btn");
+const toggleOpen = document.querySelector(".menu-btn"); 
+const toggleClose = document.querySelector(".header__menu"); 
 const nav = document.querySelector(".headermenu");
 const page = document.body;
 
-// Vérifier si les éléments existent avant d'ajouter l'événement
-if (toggle && nav) {
-  toggle.addEventListener("click", () => {
-    const isOpen = toggle.ariaExpanded === "true";
-    const isClosed = !isOpen;
-    // Mise à jour des attributs ARIA pour accessibilité
-    toggle.ariaExpanded = isClosed;
-    nav.ariaHidden = isOpen;
-    page.classList.toggle("noscroll", isClosed);
-  });
+if (toggleOpen && toggleClose && nav) {
+  const toggleMenu = (isOpen) => {
+    toggleOpen.ariaExpanded = isOpen;
+    nav.ariaHidden = !isOpen;
+    page.classList.toggle("noscroll", isOpen);
+  };
+
+  toggleOpen.addEventListener("click", () => toggleMenu(true));
+  toggleClose.addEventListener("click", () => toggleMenu(false));
 }
