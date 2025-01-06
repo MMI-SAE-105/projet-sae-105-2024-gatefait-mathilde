@@ -3,7 +3,7 @@
     /* Font-family styles */
 
     --font-primary: 'amikoregular';
-    --font-secondary: 'allertastencil';
-    --font-tertiary: 'fastone'; 
+    --font-secondary: "Allerta Stencil", serif;
+    --font-tertiary: "Faster One", serif; 
 
 }

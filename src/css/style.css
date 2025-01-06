@@ -9,15 +9,14 @@
 
 
 /*polices*/
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap');
+@import "utils/fonts.css";
 
 /* Vendors */
 @import "vendors/normalize.css";
 
 /* Utils */
 @import "utils/variables.css";
-@import "utils/fonts.css";
 
 /* Base */
 @import "base/main.css";

@@ -1,14 +1,18 @@
 .footer {
-    background: linear-gradient(to bottom,#6090A8,#284356,#1C2735);
+background: linear-gradient(to bottom, #6090A8, #284356, #1C2735);
     color: white;
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .footer__partie--title {
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;  
-    font-family:'allertastencil';
     display: inline-block;
+    font-family: var(--font-secondary);
 }
 
 .footer__partie--list {
@@ -16,38 +20,47 @@
     margin-left: -15px;
     line-height: 30px;
     margin-top: -5px;
-    font-family:'amikoregular';
+}
+
+.footer__item{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer__contenus {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .footer__partie--2 {
-    display: inline-block;
-    float: right;
+    margin-left: 3rem;
 }
 
 .footer__contact--info {
     margin-left: 20px;
     margin-right: 20px;
-    font-family:'amikoregular';
+    
 }
 
 .footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
-    margin-left: 150px;
+    
+
 }
 
 .footer__mentionslegales {
     font-size: 13px;
-    
     color: white;
-    text-align: center;
-    display: flex;
+    text-align: center; 
+    margin-bottom: 20px;
 }   
 
-.footer__item{
-    text-decoration: none;
+.footer__mentionslegales a {
     color: white;
-    font-family: 'amikoregular'
-    
 }
