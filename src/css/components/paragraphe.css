@@ -9,6 +9,11 @@
 
 }
 
+.paragraphe__title {
+    font-size: 15px;
+    font-family: var(--font-primary);
+}
+
 .paragraphe__pageaccueil3 {
     margin-bottom: 40px;
 }   
@@ -42,4 +47,11 @@
     color: #1C2735;
     font-size: 15px;
     font-family:'amikoregular';
+}
+
+.paragraphe__title--lunettes{
+    font-family: var(--font-primary);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }

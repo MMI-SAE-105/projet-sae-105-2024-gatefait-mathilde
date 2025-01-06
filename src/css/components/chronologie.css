@@ -1,0 +1,32 @@
+.chronologie__content{
+    color: #1C2735;
+    text-align: center;
+}
+
+.chronologie__title{
+    font-family: var(--font-secondary);
+    font-size: 35px;
+
+}
+
+.chronologie__soustitle{
+    font-family: var(--font-primary);
+}
+
+.chronologie__p{
+    font-family: var(--font-primary);
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.chronologie__img{
+    height: 250px;
+}
+
+.chronologie__fleche{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 50px;
+}
