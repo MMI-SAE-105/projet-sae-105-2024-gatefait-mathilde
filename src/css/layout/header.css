@@ -23,7 +23,7 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 2000;
-   
+
 }
 
 .header__title {
@@ -46,11 +46,20 @@
     display: flex;
     align-items: center;
     margin-right: 20px;
-    gap: 10px;
+    gap: 25px;
     z-index: 3000;
 }
 
 .headermenu[aria-hidden="false"] {
     visibility: visible;
     transform: translateX(0);
+}
+
+
+.header__menu{
+    all: unset;
+    padding-top: 40px;
+    position: absolute;
+    right: 20px;
+        
 }

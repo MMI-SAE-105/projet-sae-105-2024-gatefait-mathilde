@@ -2,15 +2,28 @@
 
 .menu-btn {
     z-index: 1000;
+    background: none;
+    font-style: none;
+    all:unset;
+
 }
 
 .menu {
-    text-decoration: none;
+    list-style: none;
+}
+
+.menu-btn__btn {
+background: none;
+    font-style: none;
+    all: unset;
+    margin-right: 10px;
+}
+
+.menu__link{
+    font-size: 32px;
+    font-family: var(--font-secondary);
     color: white;
-
-
+    text-decoration: none;
+    line-height: 170px;
 }
 
-.menu__croix {
-   
-}
