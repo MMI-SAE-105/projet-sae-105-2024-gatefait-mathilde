@@ -1,19 +1,16 @@
-.header__menu-btn{
-    visibility: hidden;
+
+
+.menu-btn {
+    z-index: 1000;
 }
 
-.menu__items {
+.menu {
+    text-decoration: none;
     color: white;
-    font-family: 'allertastencil';
-    font-size: 20px;
-   text-align: center;
+
+
 }
 
-.header__menu-btn {
-    margin-right: 500px;
-}
- 
-.menu-btn__btn {
-    width: 30px;
-    height: auto;
+.menu__croix {
+   
 }

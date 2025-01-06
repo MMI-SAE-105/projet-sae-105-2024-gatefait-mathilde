@@ -12,33 +12,43 @@
 <body>
     <div class="header">
         <div class="header__logo">
-            <img class="header__logo--site" src="/assets/icons/logo-header.svg" alt="logo">
-            <img class="header__logo--langue" src="/assets/icons/imagelangue.svg" alt="logo">
-            <h1 class="header__title">futurvision</h1>
+            <a href="/fr/index.html">
+                <img class="header__logo--site" src="/assets/icons/logo-header.svg" alt="logo">
+            </a>
+            <div class="header__logo--double">
+                <img class="header__logo--langue" src="/assets/icons/imagelangue.svg" alt="logo">
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
+                </button>
+            </div>
         </div>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
-        </button>
-        <nav class="headermenu" id="mainNav" aria-hidden="true">
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link" href="/fr/lunettes.html">les lunettes</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/fr/kingsman.html">kingsman</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/fr/matthewvaughn.html">matthew vaughn</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/fr/culteyewear.html">cult eyewear</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/fr/lunettesdustyle.html">lunettes du style </a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header__title">
+            <h1>futurvision</h1>
+        </div>
     </div>
+    <nav class="headermenu" id="mainNav" aria-hidden="true">
+        <button class="header__menu--croix" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <img class="menu-btn__btn" src="/assets/icons/croix.svg" alt="menu">
+        </button>
+        <ul class="menu">
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/lunettes.html">les lunettes</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/kingsman.html">kingsman</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/matthewvaughn.html">matthew vaughn</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/culteyewear.html">cult eyewear</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="/fr/lunettesdustyle.html">lunettes du style </a>
+            </li>
+        </ul>
+    
+    </nav>
     <main>
         <section class="intro">
             <div class="intro__image">

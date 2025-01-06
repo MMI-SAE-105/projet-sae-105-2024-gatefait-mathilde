@@ -8,8 +8,12 @@
 }
 
 .card__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     border-radius: 10px;
-    padding: 6px;
+    padding: 7px;
+    padding-bottom: 20px;
     background-color: #1C2735;
     color: white;
     width: 60%;
@@ -22,23 +26,30 @@
 .card__content--title{
     font-size: 20px;
     margin-left: 10px;
+    font-family: var(--font-secondary);
     
 }
 
 .card__content--description {
     font-size: 13px;
     margin-left: 10px;
+    font-family: var(--font-primary);
+    margin-bottom: 20px;
 }
 
 .card__button {
+    display: flex;    
     text-decoration: none;
     color:white;
     border-radius: 30px;
     background-color: #6090A8;
     text-align: center;
     font-size: 17px;
-    font-weight: bold;
-    font-family: 'amikoregular';
-    display: inline-block;
     padding: 0.5rem 1rem;
+    align-self: flex-end;
+}
+
+.card__button a{
+font-family: var(--font-primary);
+    font-weight: 700;
 }

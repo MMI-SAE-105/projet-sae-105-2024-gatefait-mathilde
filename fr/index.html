@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="/src/script.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
     <title>Index.html</title>
 </head>
 <body>
     <div class="header">
         <div class="header__logo">
-        <img class="header__logo--site" src="/assets/icons/logo-header.svg" alt="logo">
-        <img class="header__logo--langue" src="/assets/icons/imagelangue.svg" alt="logo">
-        <h1 class="header__title">futurvision</h1>
+            <a href="/fr/index.html">
+                <img class="header__logo--site" src="/assets/icons/logo-header.svg" alt="logo">
+            </a>
+            <div class="header__logo--double">
+                <img class="header__logo--langue" src="/assets/icons/imagelangue.svg" alt="logo">
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
+                </button>
+            </div>
         </div>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
-        </button>
+        <div class="header__title">
+            <h1>futurvision</h1>
+        </div>
+    </div>
         <nav class="headermenu" id="mainNav" aria-hidden="true">
+            <button class="header__menu" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <img class="menu-btn__btn" src="/assets/icons/croix.svg" alt="menu">
+            </button>
             <ul class="menu">
                 <li class="menu__item">
                     <a class="menu__link" href="/fr/lunettes.html">les lunettes</a>
@@ -35,8 +45,9 @@
                     <a class="menu__link" href="/fr/lunettesdustyle.html">lunettes du style </a>
                 </li>
             </ul>
+            
         </nav>
-    </div>
+        
 <main>
 <div class="pageaccueil">
     <img src="/assets/img/imageentree1.webp" alt="image d'entrée" class="pageaccueil__image">
@@ -89,10 +100,11 @@
     <div class="card__content">
         <h2 class="card__content--title">MATTHEW VAUGHN</h2>
         <p class="card__content--description">Plongez dans l'univers du réalisateur en parcourant son travail.</p>
-    </div>
+    
     <div class="card__button">
         <a href="/fr/matthewvaughn.html" class="card__button">Voir plus</a>
     </div>
+</div>
 </section>
 <section class="card">
 <div class="card__image">
@@ -101,9 +113,9 @@
 <div class="card__content">
     <h2 class="card__content--title">CULT EYEWEAR</h2>
     <p class="card__content--description">Découvrez l'influence culturelle, stylistique et technologique des lunettes selon Neil Handley.</p>
-</div>
 <div class="card__button">
     <a href="/fr/culteyewear.html" class="card__button">Voir plus</a>
+</div>
 </div>
 </section>
 <section class="card">

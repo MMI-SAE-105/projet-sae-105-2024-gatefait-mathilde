@@ -27,7 +27,6 @@
 @import "/src/css/layout/footer.css";
 
 /*Components*/
-@import "menu.css";
 @import "/src/css/components/paragraphe.css";
 @import "/src/css/components/card.css";   
 @import "/src/css/components/intro.css";
@@ -38,4 +37,5 @@
 @import "/src/css/components/exergue.css";
 @import "/src/css/components/palette.css";
 @import "/src/css/components/image.css";
+@import "/src/css/components/menu.css"; 
 
