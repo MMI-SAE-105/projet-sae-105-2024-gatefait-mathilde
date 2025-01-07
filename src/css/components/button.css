@@ -25,6 +25,9 @@
 
 
 .button__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     background-color: #1C2735;
     font-family:'allertastencil';
