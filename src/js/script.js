@@ -41,8 +41,11 @@ document.body.addEventListener("click", (evt)=> {
 });
 }
 
+/*bouton*/ 
+
 document.querySelector(".button").addEventListener("click", function () {
-    this.classList.toggle("clicked"); // Ajoute ou retire la classe "clicked"
+    this.classList.toggle("clicked"); 
 });
+
 
 
