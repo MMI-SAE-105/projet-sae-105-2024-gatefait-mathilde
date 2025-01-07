@@ -5,12 +5,12 @@
 }
 
 .legende__img--DND {
-    width: 145px;
     gap: 60px; 
 
 }
 
 .image__double{
     display: flex;
-    justify-content: space-between; 
+    gap: 10px;
+    width: 150px;
 }
