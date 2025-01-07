@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 50px;     
+       
 }
 
 .palette__1-img{
-    width: 113px;
-}
+    width: 150px;
+    height: auto;
 
+}
 
 .palette__2 {
 
@@ -24,5 +25,14 @@
     color: #6090A8;
     font-family: 'amikoregular';
     font-size: 13px;
+
+}
+
+.palette__ligne{
+    border-bottom: 2px solid #6090A8;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 
 }
