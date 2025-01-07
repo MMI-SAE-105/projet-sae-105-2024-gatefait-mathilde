@@ -1,5 +1,5 @@
 
-.pageaccueil__texte {
+.pageaccueil__titre {
     color: white;
     margin-top: -200px;
     margin-bottom: 150px;
@@ -8,13 +8,32 @@
     font-size: 32px;
 }
 
-
-.paragraphe__title {
-    color: #1C2735;
+.paragraphe {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 15px;
-    text-transform: uppercase;
+    color: #1C2735;
+    font-family: 'amikoregular';
 }
 
-.lien{
+.paragraphe__title {
+    font-size: 15px;
+    font-family: var(--font-primary);
+    margin-top: 30px;
+}
+
+.paragraphe__title__glossaire {
+    font-size: 15px;
+    font-style: bold;
+    color: #1C2735;
+    font-family: var(--font-primary);
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.lien {
     color: #6090A8;
 }

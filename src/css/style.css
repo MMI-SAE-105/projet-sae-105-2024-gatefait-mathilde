@@ -11,6 +11,8 @@
 /*polices*/
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap');
 @import "utils/fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+
 
 /* Vendors */
 @import "vendors/normalize.css";
