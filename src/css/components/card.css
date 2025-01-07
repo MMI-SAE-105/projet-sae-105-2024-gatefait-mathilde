@@ -27,8 +27,7 @@
 .card__content--title{
     font-size: 20px;
     margin-left: 10px;
-    font-family: var(--font-secondary);
-    
+    font-family: var(--font-secondary); 
 }
 
 .card__content--description {

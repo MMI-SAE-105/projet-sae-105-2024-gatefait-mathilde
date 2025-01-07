@@ -25,7 +25,6 @@ background: linear-gradient(to bottom, #6090A8, #284356, #1C2735);
 .footer__item{
     text-decoration: none;
     color: white;
-    
 }
 
 .footer__contenus {
@@ -41,7 +40,6 @@ background: linear-gradient(to bottom, #6090A8, #284356, #1C2735);
 .footer__contact--info {
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 .footer__logo {
@@ -50,8 +48,6 @@ background: linear-gradient(to bottom, #6090A8, #284356, #1C2735);
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    
-
 }
 
 .footer__mentionslegales {

@@ -1,8 +1,14 @@
+.palette__avecligne{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .palette__1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
 }
 
 .palette__1-img{
