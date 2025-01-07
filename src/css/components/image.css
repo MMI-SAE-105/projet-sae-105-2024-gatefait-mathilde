@@ -11,10 +11,15 @@
 
 .imageCE {
     margin-left: 20px;
-    margin-right: 20px;
-   
+    margin-right: 20px;  
 }
 
 .pageaccueil__image {
     margin-top: 113px;
+}
+
+.image__double {
+    display: flex;
+    gap: 10px;
+    width: 150px;
 }
