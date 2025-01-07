@@ -17,7 +17,7 @@ background: none;
 }
 
 .menu__link{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family: var(--font-secondary);
     color: white;
     text-decoration: none;

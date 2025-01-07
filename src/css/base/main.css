@@ -5,7 +5,7 @@
     margin-bottom: 150px;
     margin-left: 20px;
     font-family: var(--font-secondary);
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .paragraphe {
@@ -13,23 +13,22 @@
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 0,9rem;
     color: #1C2735;
     font-family: 'amikoregular';
 }
 
 .paragraphe__title {
-    font-size: 15px;
+    font-size: 1.1rem;
     font-family: var(--font-primary);
     margin-top: 30px;
 }
 
 .paragraphe__title__glossaire {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-style: bold;
     color: #1C2735;
     font-family: var(--font-primary);
-    font-size: x-large;
     font-weight: bold;
     margin-top: 50px;
 }
