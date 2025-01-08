@@ -62,21 +62,29 @@
         </div>
     </section>
     <section class="formulaire">
-        <h1 class="formulaire__title">Name</h1>
-        <p class="formulaire__paragraphe">Dupond...</p>
+        <form action="#" method="post" class="formulaire__contact">
+            <div class="formulaire__contact--tout">
+                <label for="nom" class="formulaire__title">Last Name</label>
+                <input type="text" id="nom" name="nom" placeholder="Last Name" class="formulaire__champ">
+            </div>
+    
+            <div class="formulaire__contact--tout">
+                <label for="prenom" class="formulaire__title">First Name</label>
+                <input type="text" id="prenom" name="prenom" placeholder="First Name" class="formulaire__champ">
+            </div>
+    
+            <div class="formulaire__contact--tout">
+                <label for="email" class="formulaire__title">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="e-mail*" class="formulaire__champ" required>
+            </div>
+    
+            <div class="formulaire__contact--tout">
+                <label for="message" class="formulaire__title">Message</label>
+                <textarea id="message" name="message" rows="7" placeholder="write your message here"></textarea>
+            </div>
+        </form>
     </section>
-    <section class="formulaire">
-        <h1 class="formulaire__title">First Name</h1>
-        <p class="formulaire__paragraphe">Henry...</p>
-    </section>
-    <section class="formulaire">
-        <h1 class="formulaire__title">Email</h1>
-        <p class="formulaire__paragraphe">henrydupond@...</p>
-    </section>
-    <section class="formulaire">
-        <h1 class="formulaire__title">Message</h1>
-        <p class="formulaire__paragraphe">Write your message here...</p>
-    </section>
+
     <p class="button__contact">SEND</p>
     </main>
     <footer>
