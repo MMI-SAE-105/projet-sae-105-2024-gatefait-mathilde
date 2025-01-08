@@ -15,7 +15,7 @@ background: none;
 }
 
 .menu__link{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: var(--font-secondary);
     color: white;
     text-decoration: none;
@@ -23,5 +23,5 @@ background: none;
 }
 
 .menu__item{
-   margin-top: 50px;
+   margin-top: 90px;
 }
