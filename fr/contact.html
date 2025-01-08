@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
     <title>Contact</title>
-    <link rel="icon" type="image/png" href="/assets/favicon/favicon.svg" />
 </head>
 
 <body>
@@ -60,22 +59,29 @@
             <p>Vous avez quelques questions ? Écrivez moi un mail ci- dessous, je serai ravie d'interagir avec vous sur mon projet.</p>
             </div>
         </section>
-        <section class="formulaire">
-            <h1 class="formulaire__title"> nom</h1>
-            <p class="formulaire__paragraphe">dupond...</p>
-        </section>
-        <section class="formulaire">
-            <h1 class="formulaire__title">prenom</h1>
-            <p class="formulaire__paragraphe">henry...</p>
-        </section>
-        <section class="formulaire">
-            <h1 class="formulaire__title">mail</h1>
-            <p class="formulaire__paragraphe">henrydupond@...</p>
-        </section>
-        <section class="formulaire">
-            <h1 class="formulaire__title">message</h1>
-            <p class="formulaire__paragraphe">écrivez ici votre message...</p>
-        </section>
+<section class="formulaire">
+    <form action="#" method="post" class="formulaire__contact">
+        <div class="formulaire__contact--tout">
+            <label for="nom" class="formulaire__title">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom" class="formulaire__champ">
+        </div>
+
+        <div class="formulaire__contact--tout">
+            <label for="prenom" class="formulaire__title">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" class="formulaire__champ">
+        </div>
+
+        <div class="formulaire__contact--tout">
+            <label for="email" class="formulaire__title">Adresse e-mail</label>
+            <input type="email" id="email" name="email" placeholder="e-mail*" class="formulaire__champ" required>
+        </div>
+
+        <div class="formulaire__contact--tout">
+            <label for="message" class="formulaire__title">Message</label>
+            <textarea id="message" name="message" rows="7" placeholder="écrivez votre message ici"></textarea>
+        </div>
+    </form>
+</section>
    <p class="button__contact">ENVOYER</p>
 </main>
 <footer>

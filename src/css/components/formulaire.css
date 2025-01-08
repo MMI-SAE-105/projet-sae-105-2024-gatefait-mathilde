@@ -1,24 +1,35 @@
 
 .formulaire {
     font-family:'amikoregular';
+    margin-left: 20px;
+        margin-right: 20px;
 }
 
 .formulaire__title {
     color: #6090A8;
     font-size: 1.1rem;
-    margin-left: 67px;
-    margin-right: 20px;
+    
 }
 
-.formulaire__paragraphe{
-    color: #D9D9D9  ;
-    border-radius: 50px;
-    background-color: #6090A8;
-    font-size: 0.9rem;
-    padding: 20px 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0 0 10px 1px rgba(119, 119, 120, 0.5);
+.formulaire__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 }
 
+.formulaire__contact--tout {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.contactchamp {
+    padding: 10px; 
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #1C2735;
+}
+
+border: 1px solid #6090A8;
