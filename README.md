@@ -6,5 +6,5 @@
 - NOM : GATEFAIT 
 - PRÉNOM : Mathilde
 - GROUPE : B1 
-- URL du site : https://lucky-gingersnap-49ce90.netlify.app
+- URL du site : https://lucky-gingersnap-49ce90.netlify.app - https://futurvision.mathilde-gatefait.fr/fr/
 - URL FIGMA : https://www.figma.com/design/Jr6poRKjOE9wNo7P6sjioE/GATEFAIT_Mathilde_B1_Maquette-Projet-Individuel?node-id=46-182&p=f&t=3x4ay4K9pXgY2bl3-0 
