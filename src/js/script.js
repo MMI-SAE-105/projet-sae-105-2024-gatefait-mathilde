@@ -47,5 +47,55 @@ document.querySelector(".button").addEventListener("click", function () {
     this.classList.toggle("clicked"); 
 });
 
+/*carrousel*/
+/*
+const carousel = document.querySelector(".carousel");
+const prevButton = document.querySelector(".carousel__button--prev");
+const nextButton = document.querySelector(".carousel__button--next");
+const premierItem = document.querySelector(".carousel__item");
 
+
+const scrollAmount = premierItem ? premierItem.clientWidth : 0;
+
+if (carousel && scrollAmount > 0) {
+  
+  prevButton.addEventListener("click", () => {
+    carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
+
+  nextButton.addEventListener("click", () => {
+    carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+}
+  */
+
+
+const nextButton = document.querySelector('.carrousel__button--next');
+const prevButton = document.querySelector('.carrousel__button--prev');
+const carouselContainer = document.querySelector('.carrousel__container');
+const items = document.querySelectorAll('.carrousel__item');
+
+// Fonction pour calculer la largeur d'un item
+const itemWidth = items[0].offsetWidth;
+
+// Calculer la position du carousel pour centrer sur l'image du milieu
+const middleIndex = Math.floor(items.length / 2); // Index de l'image du milieu
+let middlePosition = middleIndex * itemWidth; // Position à atteindre pour centrer
+
+// Appliquer un décalage (par exemple, pour compenser des marges ou paddings)
+const offset = -itemWidth / 2; // Ajuste cette valeur pour ton besoin (négatif = à gauche)
+middlePosition += offset;
+
+// Déplacer le carousel pour centrer l'image du milieu au démarrage
+carouselContainer.scrollLeft = middlePosition;
+
+if (nextButton){
+nextButton.addEventListener('click', () => {
+  carouselContainer.scrollBy({ left: 310, behavior: 'smooth' });
+});}
+
+if (prevButton) {
+prevButton.addEventListener('click', () => {
+  carouselContainer.scrollBy({ left: -310, behavior: 'smooth' });
+});}
 

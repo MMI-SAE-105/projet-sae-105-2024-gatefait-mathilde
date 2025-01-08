@@ -1,25 +1,29 @@
 
 .carrousel__container {
     display: flex;
-    gap: 10px;
-    scroll-behavior: smooth;
-    position: relative;
-    width: 100%;
+    gap: 20px;
     overflow: auto;
     overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .carrousel__item {
-    min-width: 200px;
-    max-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
+
 }
 
-.carrousel__item img { 
+.carrousel__item--img { 
     border-radius: 8px;
+        object-fit: cover;
+        width: 202px;
+        height: 278px;
 }
 
 .carrousel__link {
@@ -33,7 +37,35 @@
     display: inline-block;
 }
 
-.courrousel_fleche{
-    position: absolute;
-    right: 0;
-}
+        .carrousel {
+            position: relative;
+            overflow: hidden;
+        }
+    
+        .carrousel__button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 2;
+            font-size: 1.1rem;
+        }
+    
+        .carrousel__button--prev {
+            left: 10px;
+        }
+    
+        .carrousel__button--next {
+            right: 10px;
+        }
+    
+        .carrousel__button:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            transition: background-color 0.3s;
+        }
