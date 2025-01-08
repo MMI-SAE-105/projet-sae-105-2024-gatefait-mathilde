@@ -36,3 +36,6 @@
     color: #6090A8;
 }
 
+body.noscroll {
+    overflow: hidden;
+}
