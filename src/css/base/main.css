@@ -13,7 +13,7 @@
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 0,9rem;
+    font-size: 0.9rem;
     color: #1C2735;
     font-family: 'amikoregular';
 }
@@ -26,7 +26,6 @@
 
 .paragraphe__title__glossaire {
     font-size: 1.5rem;
-    font-style: bold;
     color: #1C2735;
     font-family: var(--font-primary);
     font-weight: bold;

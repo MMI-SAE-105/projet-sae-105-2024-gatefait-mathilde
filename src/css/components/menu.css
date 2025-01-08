@@ -1,7 +1,6 @@
 .menu-btn {
     z-index: 1000;
     background: none;
-    font-style: none;
     all:unset;
 }
 
@@ -11,7 +10,6 @@
 
 .menu-btn__btn {
 background: none;
-    font-style: none;
     all: unset;
     margin-right: 10px;
 }
